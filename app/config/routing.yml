@@ -1,0 +1,3 @@
+level7_users:
+    type:     rest
+    resource: Level7\UserBundle\Controller\UsersController

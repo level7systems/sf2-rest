@@ -1,4 +1,7 @@
 security:
+    encoders:
+        FOS\UserBundle\Model\UserInterface: sha512
+
     providers:
         in_memory:
             memory: ~
